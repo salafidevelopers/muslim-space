@@ -69,7 +69,11 @@ table {
 
 html {
   --color-white: hsl(${COLORS.white});
-  --color-primary: hsl(${COLORS.primary});
+  --color-primary: hsl(${COLORS.primary[300]});
+  --color-primary-100: hsl(${COLORS.primary[100]});
+  --color-primary-200: hsl(${COLORS.primary[200]});
+  --color-primary-700: hsl(${COLORS.primary[700]});
+  --color-primary-900: hsl(${COLORS.primary[900]});
   --color-secondary: hsl(${COLORS.secondary});
   --color-gray-100: hsl(${COLORS.gray[100]});
   --color-gray-300: hsl(${COLORS.gray[300]});

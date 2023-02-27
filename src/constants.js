@@ -1,19 +1,26 @@
 export const COLORS = {
-  white: '0deg 0% 100%',
+  white: "0deg 0% 100%",
   gray: {
-    100: '185deg 5% 95%',
-    300: '190deg 5% 80%',
-    500: '196deg 4% 60%',
-    700: '220deg 5% 40%',
-    900: '220deg 3% 20%',
+    100: "185deg 5% 95%",
+    300: "190deg 5% 80%",
+    500: "196deg 4% 60%",
+    700: "220deg 5% 40%",
+    900: "220deg 3% 20%",
   },
-  primary: '340deg 65% 47%',
-  secondary: '240deg 60% 63%',
+  primary: {
+    100: "#DFC39A",
+    200: "#D1AA6E",
+    300: "36, 52%, 55%",
+    700: "36, 100%, 25%",
+    900: "36, 53%, 10%",
+  },
+  secondary: "240deg 60% 63%",
 };
 
 export const WEIGHTS = {
-  normal: 500,
-  medium: 600,
+  normal: 400,
+  medium: 500,
+  semiBold: 600,
   bold: 800,
 };
 
