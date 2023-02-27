@@ -206,7 +206,7 @@ const DesktopActions = styled.div`
 `;
 
 const Sell = styled(UnstyledButton)`
-  background-color: var(--color-primary);
+  background-color: var(--color-primary-700);
   padding: 5px 15px;
   border-radius: 10px;
   color: white;

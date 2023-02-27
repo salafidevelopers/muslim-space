@@ -21,7 +21,8 @@ export const WEIGHTS = {
   normal: 400,
   medium: 500,
   semiBold: 600,
-  bold: 800,
+  bold: 700,
+  extrBold: 700,
 };
 
 export const BREAKPOINTS = {

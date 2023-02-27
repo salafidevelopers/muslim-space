@@ -19,12 +19,11 @@ const MobileMenu = ({ isOpen, onDismiss }) => {
         </CloseButton>
         <Filler />
         <Nav>
-          <NavLink href="/sale">Sale</NavLink>
-          <NavLink href="/new">New&nbsp;Releases</NavLink>
-          <NavLink href="/men">Men</NavLink>
-          <NavLink href="/women">Women</NavLink>
-          <NavLink href="/kids">Kids</NavLink>
-          <NavLink href="/collections">Collections</NavLink>
+          <NavLink href="/sale">Sign In</NavLink>
+          <NavLink href="/new">Sign Up</NavLink>
+          <NavLink href="/new">Sell</NavLink>
+          <NavLink href="/men">Browse Categories</NavLink>
+          <NavLink href="/women">Muslim Communities</NavLink>
         </Nav>
         <Footer>
           <a href="/terms">Terms and Conditions</a>
