@@ -36,7 +36,7 @@ const HeroContainer = styled.section`
     padding: 2rem 6rem;
   }
   @media ${QUERIES.phoneAndSmaller} {
-    padding: 2rem 4rem;
+    padding: 2rem 3rem;
   }
 `;
 
@@ -48,6 +48,9 @@ const Headline = styled.h2`
   @media ${QUERIES.tabletAndSmaller} {
     font-size: 3.5rem;
   }
+  @media ${QUERIES.phoneAndSmaller} {
+    font-size: 2.3rem;
+  }
   /* text-outline: 1.19492px solid #000000; */
 `;
 
@@ -57,5 +60,8 @@ const SubHeadline = styled.h4`
   text-align: center;
   @media ${QUERIES.tabletAndSmaller} {
     font-size: 1.5rem;
+  }
+  @media ${QUERIES.tabletAndSmaller} {
+    font-size: 1.2rem;
   }
 `;
